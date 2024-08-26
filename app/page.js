@@ -18,7 +18,7 @@ export default function Home() {
       {role: 'user', content: message},
       {role: 'assistant', content: ''},
     ])
-
+  
     const response = fetch('/api/chat', {
       method: 'POST',
       headers: {
@@ -29,7 +29,7 @@ export default function Home() {
       const reader = res.body.getReader()
       const decoder = new TextDecoder()
       let result = ''
-
+  
       return reader.read().then(function processText({done, value}) {
         if (done) {
           return result

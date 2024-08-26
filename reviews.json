@@ -2,6 +2,60 @@
     "reviews": [
       {
         "professor": "Prof1",
+        "review": "Nice idea...",
+        "subject": "Math",
+        "stars": 5
+      },
+      {
+        "professor": "Prof2",
+        "review": "Great professor...",
+        "subject": "English",
+        "stars": 5
+      },
+      {
+        "professor": "Prof3",
+        "review": "Awesome...",
+        "subject": "History",
+        "stars": 5
+      },
+      {
+        "professor": "Prof4",
+        "review": "Great professor...",
+        "subject": "Math",
+        "stars": 5
+      },
+      {
+        "professor": "Prof5",
+        "review": "Great professor...",
+        "subject": "Math",
+        "stars": 5
+      },
+      {
+        "professor": "Prof6",
+        "review": "Great professor...",
+        "subject": "Math",
+        "stars": 5
+      },
+      {
+        "professor": "Prof7",
+        "review": "Great professor...",
+        "subject": "Math",
+        "stars": 5
+      },
+      {
+        "professor": "Prof8",
+        "review": "Great professor...",
+        "subject": "Math",
+        "stars": 5
+      },
+      {
+        "professor": "Prof9",
+        "review": "Great professor...",
+        "subject": "Math",
+        "stars": 5
+      },
+      {
+        "professor": "Prof10",
         "review": "Great professor...",
         "subject": "Math",
         "stars": 5

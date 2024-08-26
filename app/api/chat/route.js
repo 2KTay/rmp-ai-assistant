@@ -1,6 +1,11 @@
 import { NextResponse } from 'next/server'
 import { Pinecone } from '@pinecone-database/pinecone'
-import OpenAI from 'openai'
+import { CohereClient } from "cohere-ai";
+
+
+const cohere = new CohereClient({
+  token: process.env.COHERE_API_KEY,
+})
 
 const systemPrompt = `
 You are a rate my professor agent to help students find classes, that takes in user questions and answers them.
@@ -13,20 +18,20 @@ export async function POST(req) {
   const pc = new Pinecone({
     apiKey: process.env.PINECONE_API_KEY,
   })
-  const index = pc.index('rag').namespace('ns1')
-  const openai = new OpenAI()
+  const index = pc.index('rag').namespace('ns1');
 
   const text = data[data.length - 1].content
-  const embedding = await openai.embeddings.create({
-    model: 'text-embedding-3-small',
-    input: text,
+  const embedding = await cohere.embed({
+    model: 'embed-multilingual-light-v3.0',
+    input_type: 'search_query',
+    texts: [text],
     encoding_format: 'float',
-  })
+  });
 
   const results = await index.query({
     topK: 5,
     includeMetadata: true,
-    vector: embedding.data[0].embedding,
+    vector: embedding.embeddings[0],
   })
 
   let resultString = ''
@@ -44,24 +49,25 @@ export async function POST(req) {
   const lastMessageContent = lastMessage.content + resultString
   const lastDataWithoutLastMessage = data.slice(0, data.length - 1)
 
-  const completion = await openai.chat.completions.create({
-    messages: [
-      { role: 'system', content: systemPrompt },
-      ...lastDataWithoutLastMessage,
-      { role: 'user', content: lastMessageContent },
+
+  const completion = await cohere.chatStream({
+    chatHistory: [
+      { role: 'CHATBOT', message: systemPrompt },
+      ...lastDataWithoutLastMessage, //.map((message) => ({ role: 'USER', message: message.content })),
+      { role: 'USER', message: lastMessageContent },
     ],
-    model: 'gpt-3.5-turbo',
+    message: lastMessageContent,
     stream: true,
-  })
+
+  });
 
   const stream = new ReadableStream({
     async start(controller) {
       const encoder = new TextEncoder()
       try {
         for await (const chunk of completion) {
-          const content = chunk.choices[0]?.delta?.content
-          if (content) {
-            const text = encoder.encode(content)
+          if (chunk.eventType === 'text-generation') {
+            const text = encoder.encode(chunk.text)
             controller.enqueue(text)
           }
         }
