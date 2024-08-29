@@ -1,0 +1,144 @@
+{
+  "reviews": [
+  {
+    "professor_name": "Leslie  Looney",
+    "school_name": "University Of Illinois at Urbana-Champaign",
+    "star_rating": 4.7,
+    "department_name": "Astronomy department",
+    "tag_professor": "Hilarious (2)  GROUP PROJECTS (2)  Gives good feedback (1)"
+  },
+  {
+    "professor_name": "Jans  Wager",
+    "school_name": "Utah Valley University",
+    "star_rating": 4.5,
+    "department_name": "English department",
+    "tag_professor": "Gives good feedback (6)  Participation matters (3)  Respected (3)  Hilarious (3)  Caring (2)  Skip class? You won\\'t pass. (2)  GROUP PROJECTS (1)  Tough Grader (1)  GRADED BY FEW THINGS (1)  Amazing lectures (1)  Get ready to read (1)  Clear grading criteria (1)"
+  },
+  {
+    "professor_name": "Bryan  Eldredge",
+    "school_name": "Utah Valley University",
+    "star_rating": 4.2,
+    "department_name": "ASL & Deaf Studies department",
+    "tag_professor": "Tough Grader (2)  Participation matters (2)  LECTURE HEAVY (1)  Inspirational (1)  TEST HEAVY (1)  Hilarious (1)"
+  },
+  {
+    "professor_name": "William  Hollinrake",
+    "school_name": "Des Moines Area Community College",
+    "star_rating": 1.6,
+    "department_name": "Computer Science department",
+    "tag_professor": "Tough Grader (10)  Skip class? You won\\'t pass. (1)  Get ready to read (1)"
+  },
+  {
+    "professor_name": "Deborah  Pluss",
+    "school_name": "William Paterson University",
+    "star_rating": 4.1,
+    "department_name": "Communication department",
+    "tag_professor": "LECTURE HEAVY (3)  LOTS OF HOMEWORK (2)  Tough Grader (2)  Skip class? You won\\'t pass. (1)  Hilarious (1)  GROUP PROJECTS (1)  Get ready to read (1)  Caring (1)"
+  },
+  {
+    "professor_name": "Candice  White",
+    "school_name": "University of Tennessee - Knoxville",
+    "star_rating": 3.7,
+    "department_name": "Communication department",
+    "tag_professor": "Tough Grader (4)  BEWARE OF POP QUIZZES (4)  Gives good feedback (3)  Participation matters (3)  Get ready to read (3)  Amazing lectures (2)  Inspirational (1)  Respected (1)  Hilarious (1)"
+  },
+  {
+    "professor_name": "Pat  Ledbetter",
+    "school_name": "North Central Texas College",
+    "star_rating": 3.5,
+    "department_name": "History department",
+    "tag_professor": "Tough Grader (7)  Gives good feedback (7)  EXTRA CREDIT (3)  Participation matters (3)  LOTS OF HOMEWORK (3)  Inspirational (3)  Caring (2)  Skip class? You won\\'t pass. (2)  Get ready to read (2)  SO MANY PAPERS (2)  Respected (1)"
+  },
+  {
+    "professor_name": "Juanita  Campos",
+    "school_name": "University of Texas at San Antonio",
+    "star_rating": 3.4,
+    "department_name": "Languages department",
+    "tag_professor": "Inspirational (1)  Skip class? You won\\'t pass. (1)  Get ready to read (1)  LOTS OF HOMEWORK (1)  Gives good feedback (1)  Participation matters (1)  ACCESSIBLE OUTSIDE CLASS (1)"
+  },
+  {
+    "professor_name": "Ann  Lewald",
+    "school_name": "Tennessee Tech University",
+    "star_rating": 3.7,
+    "department_name": "English department",
+    "tag_professor": "Participation matters (1)"
+  },
+  {
+    "professor_name": "Hon  Linda",
+    "school_name": "University of Florida",
+    "star_rating": 4.8,
+    "department_name": "Communication department",
+    "tag_professor": "Inspirational (1)  Respected (1)"
+  },
+  {
+    "professor_name": "Margaret  Mitchell",
+    "school_name": "University of the Incarnate Word",
+    "star_rating": 4.9,
+    "department_name": "Theater department",
+    "tag_professor": "Amazing lectures (2)  Inspirational (1)  Tough Grader (1)  Caring (1)  Gives good feedback (1)  Get ready to read (1)  Respected (1)"
+  },
+  {
+    "professor_name": "Diane  Reid",
+    "school_name": "Indiana University Southeast",
+    "star_rating": 4.5,
+    "department_name": "Communication department",
+    "tag_professor": "Tough Grader (3)  Gives good feedback (3)  Respected (2)  BEWARE OF POP QUIZZES (2)  LOTS OF HOMEWORK (1)  Skip class? You won\\'t pass. (1)  Hilarious (1)  Get ready to read (1)"
+  },
+  {
+    "professor_name": "John  Cunningham",
+    "school_name": "Skidmore College",
+    "star_rating": 2.6,
+    "department_name": "Fine Arts department",
+    "tag_professor": "Caring (2)  ACCESSIBLE OUTSIDE CLASS (1)  Inspirational (1)  Respected (1)  Hilarious (1)"
+  },
+  {
+    "professor_name": "Deirdre  O\\' Shea",
+    "school_name": "University of Central Florida",
+    "star_rating": 4.2,
+    "department_name": "History department",
+    "tag_professor": "Tough Grader (8)  Get ready to read (7)  EXTRA CREDIT (6)  LECTURE HEAVY (6)  SO MANY PAPERS (6)  Gives good feedback (4)  Hilarious (3)  Clear grading criteria (3)  LOTS OF HOMEWORK (3)  Amazing lectures (2)  ACCESSIBLE OUTSIDE CLASS (1)  Caring (1)  Inspirational (1)  GROUP PROJECTS (1)"
+  },
+  {
+    "professor_name": "Eleanor  Branch",
+    "school_name": "Guilford College",
+    "star_rating": 3.4,
+    "department_name": "English department",
+    "tag_professor": "Participation matters (2)  Tough Grader (2)  Gives good feedback (2)  Amazing lectures (1)  SO MANY PAPERS (1)  Skip class? You won\\'t pass. (1)  Get ready to read (1)  Inspirational (1)"
+  },
+  {
+    "professor_name": "Mima  Petrovic",
+    "school_name": "Ryerson University",
+    "star_rating": 3.8,
+    "department_name": "History department",
+    "tag_professor": "Caring (2)  GRADED BY FEW THINGS (1)  Gives good feedback (1)  Get ready to read (1)  Participation matters (1)"
+  },
+  {
+    "professor_name": "Joan  Krone",
+    "school_name": "Denison University",
+    "star_rating": 2.4,
+    "department_name": "Computer Science department",
+    "tag_professor": "Caring (1)  LECTURE HEAVY (1)"
+  },
+  {
+    "professor_name": "Nancy  Jones",
+    "school_name": "La Salle University",
+    "star_rating": 4.4,
+    "department_name": "Chemistry department",
+    "tag_professor": "Inspirational (2)  Respected (1)  Gives good feedback (1)  ACCESSIBLE OUTSIDE CLASS (1)"
+  },
+  {
+    "professor_name": "Jeffrey  Kent",
+    "school_name": "Volunteer State Community College",
+    "star_rating": 3.7,
+    "department_name": "Biology department",
+    "tag_professor": "EXTRA CREDIT (9)  Gives good feedback (8)  Caring (6)  Skip class? You won\\'t pass. (5)  Tough Grader (4)  Respected (4)  ACCESSIBLE OUTSIDE CLASS (3)  Amazing lectures (3)  Get ready to read (3)  LECTURE HEAVY (2)  Participation matters (1)  TEST HEAVY (1)  Inspirational (1)  Clear grading criteria (1)"
+  },
+  {
+    "professor_name": "Angelica  Vessella",
+    "school_name": "Rhode Island College",
+    "star_rating": 4.4,
+    "department_name": "Fine Arts department",
+    "tag_professor": "Inspirational (3)  Gives good feedback (3)  Skip class? You won\\'t pass. (1)  Tough Grader (1)  Respected (1)  Participation matters (1)"
+  }
+]
+}

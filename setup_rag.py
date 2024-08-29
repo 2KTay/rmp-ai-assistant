@@ -23,13 +23,13 @@ if index_name not in pc.list_indexes().names():
         )
 )
 
-data = json.load(open("csvjson.json"))
+data = json.load(open("first20RAG.json"))
 processed_data = []
 
 
 for review in data["reviews"]:
     response = co.embed(
-        texts=[review["comments"]], 
+        texts=[review["tag_professor"]], 
         model='embed-multilingual-light-v3.0',
         input_type='search_query'
     )
@@ -40,7 +40,7 @@ for review in data["reviews"]:
         "metadata": {
             "school": review["school_name"],
             "rating": review["star_rating"],
-            "race": review["race"],
+            "department": review["department_name"],
         }
     })
 
