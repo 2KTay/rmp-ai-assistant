@@ -1,0 +1,354 @@
+{
+  "reviews": [
+      {
+        "professor_name": "Leslie  Looney",
+        "school_name": "University Of Illinois at Urbana-Champaign",
+        "star_rating": 4.7,
+        "comments": "This class is hard, but its a two-in-one gen-ed knockout, and the content is very stimulating. Unlike most classes, you have to actually participate to pass. Sections are easy and offer extra credit every week. Very funny dude. Not much more I can say.",
+        "race": "hispanic"
+      },
+      {
+        "professor_name": "Jans  Wager",
+        "school_name": "Utah Valley University",
+        "star_rating": 4.5,
+        "comments": "Dr. Wager is a great professor. Her expectations were clear and she really wants to help you succeed. She was always entertaining and knew what she was talking about. I took her hybrid course which i would definitely recommend.",
+        "race": "hispanic"
+      },
+      {
+        "professor_name": "Robert  Warden",
+        "school_name": "Philadelphia University",
+        "star_rating": 3.4,
+        "comments": "This guy is a quack! You never understand what he is saying!",
+        "race": "nh_white"
+      },
+      {
+        "professor_name": "Bryan  Eldredge",
+        "school_name": "Utah Valley University",
+        "star_rating": 4.2,
+        "comments": "I took his online class as an elective and regretted taking it by the end. The information is interesting but he is a tough grader. His tests were hard and very confusing.",
+        "race": "hispanic"
+      },
+      {
+        "professor_name": "William  Hollinrake",
+        "school_name": "Des Moines Area Community College",
+        "star_rating": 1.6,
+        "comments": "Took online course. Day after Midterms I was the *only* one who turned in the next assignment. Rest of the year was 3 people turning in their homework. Took off points for incorrect COMMENTS, not just incorrect code. hyper-specific. bad teacher. wouldnt even help me install the software properly, gave no link to online instructions either.",
+        "race": "hispanic"
+      },
+      {
+        "professor_name": "Lauren  Baumbach",
+        "school_name": "Philadelphia University",
+        "star_rating": 3.5,
+        "comments": "Knows alot, the class is long and boring but she gives good notes.",
+        "race": "nh_white"
+      },
+      {
+        "professor_name": "Beverly  Faunce",
+        "school_name": "Gratz College (Regional Training Center)",
+        "star_rating": 3.1,
+        "comments": "I loved the course I took with Beverly. I definitely got some practical information I could actually use.",
+        "race": "hispanic"
+      },
+      {
+        "professor_name": "Deborah  Pluss",
+        "school_name": "William Paterson University",
+        "star_rating": 4.1,
+        "comments": "Pluss is hysterical and made COMM Research Methods bearable. There are no surprises here and the final is just the four quizzes she gave throughout the semester. Of those four, she drops the lowest one. There were 5 assignments, 5 quizzes (including the final). The material can be dry but that\\'s not on her. she made a boring class fun, take her.",
+        "race": "nh_white"
+      },
+      {
+        "professor_name": "Mary  Richardson",
+        "school_name": "San Diego State University",
+        "star_rating": 3.9,
+        "comments": "She\\'s cool. sometime laughs upsettingly loud but that\\'s not from an evil intention. she enjoys teaching. class is about critical writing and provides fun discussion time. it goes in appropriate pace so it\\'s easy to keep up. hw amount is moderate.",
+        "race": "hispanic"
+      },
+      {
+        "professor_name": "Tracey  Francese",
+        "school_name": "William Paterson University",
+        "star_rating": 3.4,
+        "comments": "Doesn\\'t really teach the class. She just breaks us down into small groups and we have to read and do group discussions every class. Not much homework. Gives you study guides for the exam but doesnt really review. Overall dont take her if you dont like group discussions and if you can\\'t teach yourself.",
+        "race": "nh_white"
+      },
+      {
+        "professor_name": "Candice  White",
+        "school_name": "University of Tennessee - Knoxville",
+        "star_rating": 3.7,
+        "comments": "Dr. White is one of the best professors I have ever had. She truly loves students and what she teaches. She is like a mother in the classroom. She is also really funny. She gives pop quizzes a lot and there is assigned reading.",
+        "race": "nh_white"
+      },
+      {
+        "professor_name": "Pat  Ledbetter",
+        "school_name": "North Central Texas College",
+        "star_rating": 3.5,
+        "comments": "The most time consuming class I\\'ve ever taken. She is a tough grader but very detailed in her feedback. Online class had 7 total papers and endless online discussions. I asked her a question about one of the papers and she was VERY rude about it. I\\'ll admit I didn\\'t read the entire assignment but still, she could\\'ve been nicer about it.",
+        "race": "hispanic"
+      },
+      {
+        "professor_name": "Juanita  Campos",
+        "school_name": "University of Texas at San Antonio",
+        "star_rating": 3.4,
+        "comments": "Professor Campos is the sweetest, most easy professor I\\'ve had. I was nervous to take Spanish since I hadn\\'t since HS. She makes the content easy, and really works with you if you miss anything but make sure to tell her ahead of time. Quizzes and exams are pretty easy as well. I would love to take her for Spanish II if she ever teaches it again.",
+        "race": "hispanic"
+      },
+      {
+        "professor_name": "Ann  Lewald",
+        "school_name": "Tennessee Tech University",
+        "star_rating": 3.7,
+        "comments": "This is a remedial course for students who didn\\'t score well on the ACT. Easy class. If you miss five times you automatically fail the course. All assignments are online, and it\\'s up to you to complete them. If you don\\'t miss any classes but fail the master exam you still pass the class. You don\\'t get a credit but it goes on your transcript",
+        "race": "hispanic"
+      },
+      {
+        "professor_name": "Hon  Linda",
+        "school_name": "University of Florida",
+        "star_rating": 4.8,
+        "comments": "Dr. Hon is an amazing human being. She is someone you would want in your life even as a friend! PR Research with her was great. Super helpful, willing to work with you and she was extremely understanding. I wish she taught another course to take her again.",
+        "race": "nh_white"
+      },
+      {
+        "professor_name": "Ruben  Mouhiddan",
+        "school_name": "The Art Institute of California - Los Angeles",
+        "star_rating": 2.6,
+        "comments": "I liked Ruben and what I learned from him. You just have to learn how to listen to him.",
+        "race": "nh_white"
+      },
+      {
+        "professor_name": "Margaret  Mitchell",
+        "school_name": "University of the Incarnate Word",
+        "star_rating": 4.9,
+        "comments": "Mrs. Mitchell is definitely the best teacher I ever had. She is caring, motivational, and wants you to succeed. She is brilliant and gives amazing lectures. She can be a tough grader but clearly states what she is looking for. Be sure to participate in discussions, she loves that. MAM will not only teach you theatre, she will teach you life lessons",
+        "race": "nh_black"
+      },
+      {
+        "professor_name": "Diane  Reid",
+        "school_name": "Indiana University Southeast",
+        "star_rating": 4.5,
+        "comments": "She made it easy to give speeches in class. Loved how she made us do warmups on speech day.",
+        "race": "nh_white"
+      },
+      {
+        "professor_name": "John  Cunningham",
+        "school_name": "Skidmore College",
+        "star_rating": 2.6,
+        "comments": "You show JC the effort and he will respect you back. There is a lot of knowledge in his head and a genuine interest in the students. Once you demonstrate your commitment you\\'ll be freed to take your creations as far as you want to.",
+        "race": "nh_white"
+      },
+      {
+        "professor_name": "Wolfgang  Ziller",
+        "school_name": "University of Pennsylvania",
+        "star_rating": 3.8,
+        "comments": "Takes time to provide useful examples",
+        "race": "nh_white"
+      },
+      {
+        "professor_name": "Clark",
+        "school_name": "Long Island University",
+        "star_rating": 1.5,
+        "comments": "I studied more for this one class than all my classes combined and I am a pharmacy major. I received the highest grades on the midterm and final out of 12 people in the class and he still gave me a B! how does anyone get an A? Im glad I heard he left or hopefully fired. He does not care about the students, yet about boosting his ego.",
+        "race": "nh_white"
+      },
+      {
+        "professor_name": "Sally  Mallory",
+        "school_name": "University of Pennsylvania",
+        "star_rating": 3.3,
+        "comments": "AWFUL WOMAN!!!extremely unfair and partial to stushe her \"favorites\" and totally fake. Never take her if possible.",
+        "race": "nh_white"
+      },
+      {
+        "professor_name": "Deirdre  O\\' Shea",
+        "school_name": "University of Central Florida",
+        "star_rating": 4.2,
+        "comments": "O\\'shea is a easy professor is you do all of the online work, she\\'s rude when you try to approach her outside of class. Her power points aren\\'t very helpful, and her lectures do not help at all. Her directions when writing papers are very clear, but it is still difficult to receive a good score on them. The work is all online (quizzes and essays).",
+        "race": "hispanic"
+      },
+      {
+        "professor_name": "Robin  Hochstrasser",
+        "school_name": "University of Pennsylvania",
+        "star_rating": 2.8,
+        "comments": "An icon in his field. Personable with excellent taste",
+        "race": "nh_white"
+      },
+      {
+        "professor_name": "Rich  Carter",
+        "school_name": "Oregon State University",
+        "star_rating": 2.9,
+        "comments": "Terrible professor, not clear, includes too much information, unwilling to listen to questions in class.",
+        "race": "hispanic"
+      },
+      {
+        "professor_name": "Mara  Merlino",
+        "school_name": "Truckee Meadows Community College",
+        "star_rating": 1.5,
+        "comments": "Assignments are ridiculously above SOC 101 level, they are very unclear and constantly changing. Unbelieveably boring speaker. Rambles on about bizarre personal life. If she says she will do soemthing, she will not come through. PLEASE would the faculty do SOMETHING before she ruins more students\\' interest in sociology?!?!",
+        "race": "nh_white"
+      },
+      {
+        "professor_name": "Michael  Scarlatos",
+        "school_name": "Pace University (all)",
+        "star_rating": 2.3,
+        "comments": "Save yourself the headache. If you are late, you\\'ll probably sit in the corner with a dunce hat. He\\'d make people sit along the wall if they were late. He spontaneously picks on people, it just gets annoying. The 1st day he lectures on his life from age 3-present time. You\\'ll feel like you never graduated H.S. or that you\\'re in the twilight zone.",
+        "race": "hispanic"
+      },
+      {
+        "professor_name": "Tina  Keeble",
+        "school_name": "Wilfrid Laurier University-Waterloo",
+        "star_rating": 2.8,
+        "comments": "Mean, unapproachable, unhelpful",
+        "race": "nh_black"
+      },
+      {
+        "professor_name": "Eleanor  Branch",
+        "school_name": "Guilford College",
+        "star_rating": 3.4,
+        "comments": "Slow to respond online, could have been due to small class size so less priority, but still..",
+        "race": "nh_black"
+      },
+      {
+        "professor_name": "Virgina  Rivers",
+        "school_name": "Truckee Meadows Community College",
+        "star_rating": 3.1,
+        "comments": "GREAT class! I learned so much and the professor was fantastic. She even gives you an excellent study list prior to major exams. I found her course to be enjoyable. The labs were fun too. However, it is not a course for lazy students.............you must study.",
+        "race": "nh_white"
+      },
+      {
+        "professor_name": "Mulloy  Robertson",
+        "school_name": "Volunteer State Community College",
+        "star_rating": 1.9,
+        "comments": "Very confusing professor. He will go on a tangent about cars, golf, wrestling, and friends for the entire class and it becomes entirely pointless to show up when he just confuses you more. I will say he is very helpful when it comes to extending due dates on homework and quizzes if you talk to him about it so he\\'s not entirely bad.",
+        "race": "nh_white"
+      },
+      {
+        "professor_name": "Dana  Baylard",
+        "school_name": "Mt. San Jacinto College (all campuses)",
+        "star_rating": 4.5,
+        "comments": "One of my favorite teachers,. she is fun to be in class with and is very helpful with all the questions. I would defintely have her as a teacher again",
+        "race": "hispanic"
+      },
+      {
+        "professor_name": "Mima  Petrovic",
+        "school_name": "Ryerson University",
+        "star_rating": 3.8,
+        "comments": "No",
+        "race": "nh_white"
+      },
+      {
+        "professor_name": "Joan  Krone",
+        "school_name": "Denison University",
+        "star_rating": 2.4,
+        "comments": "She cares about students, tries to be helpful, but sometimes she gives general/unhelpful feedback. The class is lecture-heavy for a practical class (Software Engineering). The lectures are kinda boring, she often uses jargons/big words, which sometimes give the impression that she doesn\\'t know what she\\'s talking about or have real-life experience.",
+        "race": "nh_black"
+      },
+      {
+        "professor_name": "Nancy  Jones",
+        "school_name": "La Salle University",
+        "star_rating": 4.4,
+        "comments": "Not good at lecture. Makes material more confusing, than needs to be. She is very accessible and will work with you, if she see\\'s that you are trying, which is her best quality! On exams, tends to put material that was briefly discussed.",
+        "race": "nh_white"
+      },
+      {
+        "professor_name": "Jim  Pletcher",
+        "school_name": "Denison University",
+        "star_rating": 3.6,
+        "comments": "Professor Pletcher provided me with two classes during my time at Denison University as an exchange student. Behind a fairly tough facade hides a wonderfully engaged, intelligent and brilliant teacher and professor. His classes were inspiring and insightful and instrumental for me in determing my academic path. Pletcher comes highly recommded",
+        "race": "nh_black"
+      },
+      {
+        "professor_name": "Anita  Hampton",
+        "school_name": "Georgia State University Perimeter College - Decatur",
+        "star_rating": 2.2,
+        "comments": "She is not helpful",
+        "race": "nh_black"
+      },
+      {
+        "professor_name": "Panos  Alexakos",
+        "school_name": "Santa Fe College",
+        "star_rating": 4.1,
+        "comments": "Great prof. He really made me think about life and how I think about things. He challenged me to venture outside the box and question what I believe and why as objectively as I could. Really showed me how closed-minded I was. This class is a must for first years. Essays aren\\'t hard. Just incorporate what he talks about in lecture. READ THE BOOKS!",
+        "race": "hispanic"
+      },
+      {
+        "professor_name": "Jeffrey  Kent",
+        "school_name": "Volunteer State Community College",
+        "star_rating": 3.7,
+        "comments": "He\\'s really smart and a good teacher. He gives a lot of extra credit for showing up to review sessions and open labs and will explain things you have problems with. He\\'s my favorite A&P prof I\\'ve had so far.",
+        "race": "nh_white"
+      },
+      {
+        "professor_name": "Bill  Sanders",
+        "school_name": "University of Hartford",
+        "star_rating": 2.1,
+        "comments": "This class has nothing to do with the course description. It is a web design class and I don\\'t know why it\\'s not being displayed as one. Sanders is a really nice guy but he doesn\\'t know how to teach. His tests are hard, he doesn\\'t know what he\\'s doing in class, and excepts you to know everything. Unless you\\'re a MWD major, don\\'t take this class.",
+        "race": "nh_white"
+      },
+      {
+        "professor_name": "Angelica  Vessella",
+        "school_name": "Rhode Island College",
+        "star_rating": 4.4,
+        "comments": "She is an amazing instructor, who has much knowledge.",
+        "race": "nh_white"
+      },
+      {
+        "professor_name": "Ian  Gellatly",
+        "school_name": "University of Alberta",
+        "star_rating": 3,
+        "comments": "He\\'s an OK prof. Lectures are dry but mandatory as he has weekly quizes that count for 15 percent of your total mark. 4 midterms no final and exams are all written and very easy. No need to buy the textbook even though he says you have to. Read the powerpoints and come to quiz days and you will get an A.",
+        "race": "nh_white"
+      },
+      {
+        "professor_name": "Karen  Carr",
+        "school_name": "Rhode Island College",
+        "star_rating": 3.3,
+        "comments": "She wasn\\'t a bad teacher, but not someone I would recommend to anyone else. She makes you read a lot of books which isn\\'t great but as long as you aren\\'t an English major you\\'ll be fine. We were supposed to have five papers and we only did three, and she cancelled class like four times",
+        "race": "nh_white"
+      },
+      {
+        "professor_name": "Wayne Charles  Hippo",
+        "school_name": "Pennsylvania State University - Altoona",
+        "star_rating": 4.5,
+        "comments": "pretty easy class..this guy owns a lawfirm though so it is early in the morning. i hate getting up early and i still managed to ace the class. tests are m/c and easy if you review your notes well. he also curved all the tests in my class. make sure you pay close attention cause he doens\\'t repeat himself oftern. TAKE THIS GUY! STUDY ALL YOUR NOTES!",
+        "race": "nh_white"
+      },
+      {
+        "professor_name": "Sue  Davis",
+        "school_name": "Denison University",
+        "star_rating": 3.5,
+        "comments": "She is old-fashioned in her approach to teaching the subject matter. She is definitely not a political scientist and is probably best suited for a different discipline altogether. I found her courses to be poor preparation for graduate school.",
+        "race": "nh_black"
+      },
+      {
+        "professor_name": "Melody  Ward",
+        "school_name": "Rhode Island College",
+        "star_rating": 4.9,
+        "comments": "I loved her. I have to agree with the person below me though, she can be pretty rude at times. Class was a lot of fun!!",
+        "race": "nh_white"
+      },
+      {
+        "professor_name": "Sharon  Teague",
+        "school_name": "Rhode Island College",
+        "star_rating": 2.3,
+        "comments": "okay, true this was a very demanding class. she gives a lot work for you to complished in the semester. I felt very overwhelmed sometimes but she is truly just trying to teach us a lot of material in one semester. she is a very nice lady and keeps you on your toes in class. Im glad I took her but I am also glad that I never have to take her again!",
+        "race": "nh_white"
+      },
+      {
+        "professor_name": "Carol  McClure",
+        "school_name": "California State University Fullerton",
+        "star_rating": 2.5,
+        "comments": "I\\'ll admit i did learn a lot in this class. BUT it was one of the hardest classes i\\'ve ever taken. You have to study for all the tests, or there\\'s no way you\\'ll pass. Pretty much everything on the test is essay questions, and she grades hard..but if you\\'re dedicated and take the time to study you\\'ll do good.",
+        "race": "hispanic"
+      },
+      {
+        "professor_name": "Vincent  Sherry",
+        "school_name": "Villanova University",
+        "star_rating": 3.3,
+        "comments": "No Comments",
+        "race": "hispanic"
+      },
+      {
+        "professor_name": "Charles  Cherry",
+        "school_name": "Villanova University",
+        "star_rating": 4.2,
+        "comments": "Professor Cherry was a great professor. Although he was hard of hearing, he consistently did his best to get everyone involved in class. It is unfortunate that he is retiring to become a surf instructor in California as he will be missed by the entire Villanova community.",
+        "race": "hispanic"
+      }
+    ]
+}

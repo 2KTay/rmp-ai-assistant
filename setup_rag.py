@@ -9,36 +9,42 @@ import json
 pc = Pinecone(api_key=os.getenv("PINECONE_API_KEY"))
 co = cohere.Client(api_key=os.getenv("COHERE_API_KEY"))
 
-pc.delete_index(name="rag")
-pc.create_index(
-    name="rag",
-    dimension=384,
-    metric="cosine",
-    spec=ServerlessSpec(cloud="aws", region="us-east-1"),
+index_name = "rmp-ai-assitant"
+
+#check if an index list has been created
+if index_name not in pc.list_indexes().names():
+    pc.create_index(
+        name=index_name,
+        dimension=1024,
+        metric="cosine",
+        spec=ServerlessSpec(
+            cloud='aws',
+            region='us-east-1'
+        )
 )
 
-data = json.load(open("reviews.json"))
+data = json.load(open("csvjson.json"))
 processed_data = []
 
 
 for review in data["reviews"]:
     response = co.embed(
-        texts=[review["review"]], 
+        texts=[review["comments"]], 
         model='embed-multilingual-light-v3.0',
         input_type='search_query'
     )
     embedding = response.embeddings[0]
     processed_data.append({
         "values": embedding,
-        "id": review["professor"],
+        "id": review["professor_name"],
         "metadata": {
-            "review": review["review"],
-            "subject": review["subject"],
-            "stars": review["stars"],
+            "school": review["school_name"],
+            "rating": review["star_rating"],
+            "race": review["race"],
         }
     })
 
-index = pc.Index("rag")
+index = pc.Index(index_name)
 upsert_response = index.upsert(vectors=processed_data, namespace="ns1")
 print(f"Upserted count: {upsert_response['upserted_count']}")
 print(index.describe_index_stats())

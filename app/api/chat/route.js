@@ -14,69 +14,69 @@ Use them to answer the question if needed.
 `
 
 export async function POST(req) {
-  const data = await req.json()
-  const pc = new Pinecone({
-    apiKey: process.env.PINECONE_API_KEY,
-  })
-  const index = pc.index('rag').namespace('ns1');
+  try {
+    const data = await req.json()
+    const pc = new Pinecone({
+      apiKey: process.env.PINECONE_API_KEY,
+    })
+    const index = pc.index('rag').namespace('ns1');
 
-  const text = data[data.length - 1].content
-  const embedding = await cohere.embed({
-    model: 'embed-multilingual-light-v3.0',
-    input_type: 'search_query',
-    texts: [text],
-    encoding_format: 'float',
-  });
+    const text = data[data.length - 1].content
+    const embedding = await cohere.embed({
+      model: 'embed-multilingual-light-v3.0',
+      input_type: 'search_query',
+      texts: [text],
+      encoding_format: 'float',
+    });
 
-  const results = await index.query({
-    topK: 5,
-    includeMetadata: true,
-    vector: embedding.embeddings[0],
-  })
+    const results = await index.query({
+      topK: 5,
+      includeMetadata: true,
+      vector: embedding.embeddings[0],
+    })
 
-  let resultString = ''
-  results.matches.forEach((match) => {
-    resultString += `
-    Returned Results:
-    Professor: ${match.id}
-    Review: ${match.metadata.review}
-    Subject: ${match.metadata.subject}
-    Stars: ${match.metadata.stars}
-    \n\n`
-  })
+    let resultString = ''
+    results.matches.forEach((match) => {
+      resultString += `
+      Returned Results:
+      Professor: ${match.id}
+      Review: ${match.metadata.review}
+      Subject: ${match.metadata.subject}
+      Stars: ${match.metadata.stars}
+      \n\n`
+    })
 
-  const lastMessage = data[data.length - 1]
-  const lastMessageContent = lastMessage.content + resultString
-  const lastDataWithoutLastMessage = data.slice(0, data.length - 1)
+    const lastMessage = data[data.length - 1]
+    const lastMessageContent = lastMessage.content + resultString
+    const lastDataWithoutLastMessage = data.slice(0, data.length - 1)
 
-
-  const completion = await cohere.chatStream({
-    chatHistory: [
+    // Prepare chatHistory with proper structure
+    const chatHistory = [
       { role: 'CHATBOT', message: systemPrompt },
-      ...lastDataWithoutLastMessage, //.map((message) => ({ role: 'USER', message: message.content })),
+      ...lastDataWithoutLastMessage.map((msg) => ({ role: msg.role.toUpperCase(), message: msg.content })),
       { role: 'USER', message: lastMessageContent },
-    ],
-    message: lastMessageContent,
-    stream: true,
+    ];
 
-  });
+    const completion = await cohere.chatStream({
+      chatHistory: chatHistory,
+      message: lastMessageContent,
+      stream: true,
+    });
 
-  const stream = new ReadableStream({
-    async start(controller) {
-      const encoder = new TextEncoder()
-      try {
+    const stream = new ReadableStream({
+      async start(controller) {
         for await (const chunk of completion) {
           if (chunk.eventType === 'text-generation') {
-            const text = encoder.encode(chunk.text)
-            controller.enqueue(text)
+            controller.enqueue(chunk.text)
           }
         }
-      } catch (err) {
-        controller.error(err)
-      } finally {
-        controller.close()
-      }
-    },
-  })
-  return new NextResponse(stream)
+        controller.close();
+      },
+    })
+
+    return new NextResponse(stream)
+  } catch (error) {
+    console.error('Error during POST:', error)
+    return new NextResponse(`Error: ${error.message}`, { status: 500 })
+  }
 }
